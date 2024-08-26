@@ -95,6 +95,10 @@ export default function Lightpages() {
                 <textarea name="" placeholder='Add Text Content'  id=""></textarea>
                 <input type="text" placeholder='Alt text'/>
               </section>
+              <div className='file-section'>
+                <p>Upload Content File</p>
+                <input type="file" />
+              </div>
               <div className="form-btns">
                 <button type="reset"  onClick={() => setIsActivedel(true)}>Delete</button>
                 <button type="submit">Publish</button>
@@ -124,9 +128,9 @@ export default function Lightpages() {
               </section>
               <textarea name="" placeholder='Edit content'  id=""></textarea>
               <div className='file-section'>
-                  <p>Upload Content File</p>
-                  <input type="file" />
-                </div>
+                <p>Upload Content File</p>
+                <input type="file" />
+              </div>
               <div className="form-btns">
                 <button type="reset"  onClick={() => setIsActivedel(true)}>Delete</button>
                 <button type="submit">Edit</button>
